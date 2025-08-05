@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Force white background on input elements */
+input, textarea {
+  background-color: white !important;
+  color: black !important;
+}
